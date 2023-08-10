@@ -1,0 +1,67 @@
+*{
+    box-sizing: border box;
+    margin: 0%;
+    padding:0;
+}
+:root{
+    font-family: 'Courier New', Courier, monospace;
+    --color:white;
+    --color2: black;
+    /* padding: 50px 100px; */
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+    font-size: medium;
+    color: white;
+}
+label{
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding: 50px 1px;
+}
+input{
+    margin: 20px 10px;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.result{
+    margin:10px 50px;
+    font-size: 26px;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 1cm;
+}
+button{
+    font-size: medium;
+    border: 2px solid black;
+    padding: 10px 25px;
+    margin: 0px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+button:active{
+    color: brown;
+}
+
+@media screen and (max-width:500px) {
+    label{
+        font-size: 35px;
+    }
+}
+
+@media  screen and (max-width:1000px) {
+    button{
+        display: flex;
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+}
