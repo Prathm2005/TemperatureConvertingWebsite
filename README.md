@@ -1,3 +1,3 @@
 # GYM-website-landing-page
-This is landing page of GYM Website(html,css)
+This is Temperature converting website (html,css,js)
 Plz check out
